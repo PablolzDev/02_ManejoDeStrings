@@ -60,9 +60,18 @@
 
 //Fragmentacion de un string
 
-const message = "anita lava la tina porque se porto mal"
+// const message = "anita lava la tina porque se porto mal"
+// document.write(message)
+
+// console.info(message.substring(0,9)) //solo strings
+
+// console.info(message.slice(0,10)) //string and list
+
+// console.info(message.replace("a","e")) //replaza la primera coincidencia que encuentre
+// console.info(message.replaceAll("a", "e"))
+// console.info(message.replaceAll(/[aeiou]/g,"p"))
+
+//relleno de string
+const message = "riwi"
 document.write(message)
-
-console.info(message.substring(0,9)) //solo strings
-
-console.info(message.slice(0,10)) //string and list
+console.info(message.repeat())
